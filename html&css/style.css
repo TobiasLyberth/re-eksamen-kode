@@ -2,7 +2,9 @@
 body {
     margin: 0;
     background-color: white;
+    font-family: 'Space-Grotesk', sans-serif;
 }
+
 
 
 
@@ -42,4 +44,125 @@ body {
     .item03 h3 {
         margin-top: 35px;
     }
+
+    /* Linje opdeler*/
+    #opdeler01 {
+        border: 1px solid black;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    /* App på undersiden */
+    /* 1 app */
+    #app01 {
+        margin-top: 50px;
+    }
+
+    .appBillede01 {
+        display: flex;
+        width: 340px;
+        margin-top: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .appTitle01 {
+        margin-left: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .appText01 {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 40px;
+    }
+
+    .appKnap01 {
+        text-decoration: none;
+        color: black;
+        margin-left: 25px;
+    }
+
+    /* 2 app */
+    .appBillede02 {
+        display: flex;
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .appTitle02 {
+        margin-left: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .appText02 {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 40px;
+    }
+
+    .appKnap02 {
+        text-decoration: none;
+        color: black;
+        margin-left: 25px;
+    }
+
+    /* 3 app */
+    .appBillede03 {
+        display: flex;
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .appTitle03 {
+        margin-left: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .appText03 {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 40px;
+    }
+
+    .appKnap03 {
+        text-decoration: none;
+        color: black;
+        margin-left: 25px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #ebebeb;
+    }
+
+    footer h2 {
+        padding-top: 100px;
+        margin-left: 25px;
+        margin-bottom: -10px;
+    }
+
+    .footerTekst01 {
+        margin-left: 25px;
+        margin-bottom: -10px;
+    }
+
+    .footerTekst02 {
+        margin-left: 25px;
+    }
+
+    footer h5 {
+        margin-left: 25px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 100px;
+    }
+
   }
