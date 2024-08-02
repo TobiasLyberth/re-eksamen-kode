@@ -19,6 +19,7 @@ body {
     }
 
 
+
     /* Headeren */
     .item01 {
         display: flex;
@@ -36,6 +37,7 @@ body {
         margin-left: auto;
         font-weight: lighter;
     }
+
 
 
     /* Overskrift & undertitler */
@@ -57,12 +59,14 @@ body {
     }
     
 
+
     /* h2 både i starten og slutningen af siden */
 
     h2 {
         font-weight: lighter;
         font-size: 30px;
     }
+
 
 
     /* Linje opdeler*/
@@ -75,6 +79,7 @@ body {
     }
 
 
+
     /* CSS for download knappen */
     .downloadKnap01 {
         display: flex;
@@ -82,11 +87,31 @@ body {
         margin-bottom: 40px;
         font-size: 15px;
         background-color: white;
+        border: 1px solid black;
         border-radius: 5px;
         padding: 5px;
         cursor: pointer;
     }
 
+    .downloadKnap01:hover {
+        background-color: #ebebeb;
+    }
+
+    .downloadKnap02 {
+        display: flex;
+        margin-left: 25px;
+        margin-bottom: 40px;
+        font-size: 15px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .downloadKnap02:hover {
+        background-color: #ebebeb;
+    }
 
     /* App på undersiden */
     /* 1 app */
@@ -120,6 +145,11 @@ body {
         margin-left: 25px;
     }
 
+    .appKnap01:hover {
+        color: #2c3f8d;
+    }
+
+
 
     /* 2 app */
     .appBillede02 {
@@ -142,11 +172,6 @@ body {
         margin-bottom: 40px;
     }
 
-    .appKnap02 {
-        text-decoration: none;
-        color: black;
-        margin-left: 25px;
-    }
 
 
     /* 3 app */
@@ -170,11 +195,6 @@ body {
         margin-bottom: 40px;
     }
 
-    .appKnap03 {
-        text-decoration: none;
-        color: black;
-        margin-left: 25px;
-    }
 
 
     /* Footer */
@@ -208,27 +228,37 @@ body {
     }
 
 
+
     /* Over & under title på Frokost siden */
     .item04 {
         display: flex;
         align-items: baseline;
         margin-left: 25px;
         margin-top: 35px;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .tilbageKnap01 {
+        text-decoration: none;
+        color: black;
     }
 
     .item04 p {
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .item05 {
         margin-left: 25px;
-        margin-top: -90px;
+        margin-top: -80px;
     }
 
     .item05 h6 {
-        font-size: 35px;
+        font-size: 32px;
         font-weight: lighter;
+        margin-bottom: 40px;
     }
+
 
 
     /* Indhold inde på frokost app siden */
@@ -247,21 +277,26 @@ body {
     }
 
     .indholdText01 {
+        margin-top: 40px;
         margin-left: 25px;
         margin-right: 25px;
     }
 
     .indholdText02 {
+        margin-top: 40px;
+        margin-bottom: 40px;
         margin-left: 25px;
         margin-right: 25px;
     }
 
 
+
     /* Kontaktformularen */
     .kontakt01 {
         background-color: #282454;
-        padding-bottom: 10px;
+        padding-bottom: 80px;
         color: #EDEAF5;
+        padding-top: 80px;
     }
 
     .kontakt01 p {
@@ -269,13 +304,113 @@ body {
         margin-right: 25px;
     }
 
+    .fornavn01 {
+        font-size: 15px;
+    }
+
+    .efternavn01 {
+        font-size: 15px;
+    }
+
+    .email01 {
+        font-size: 15px;
+    }
+
+    .jobtitle01 {
+        font-size: 15px;
+    }
+
+    .virksomhed01 {
+        font-size: 15px;
+    }
+
+    .kontaktText01 {
+        font-size: 15px;
+    }
+
+    .kontaktText02 {
+        font-size: 20px;
+    }
+
     .kontakt01 input {
         margin-left: 25px;
         margin-right: 25px;
     }
 
+    .fornavn02 {
+        width: 340px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .efternavn02 {
+        width: 340px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .email02 {
+        width: 340px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .jobtitle02 {
+        width: 340px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .virksomhed02 {
+        width: 340px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .kontaktBesked01 {
+        margin-left: 25px;
+        width: 340px;
+        height: 200px;
+        padding: 10px 10px;
+        background-color: #282454;
+        color: #EDEAF5;
+        box-sizing: border-box;
+        border: 1px solid #EDEAF5;
+        border-radius: 8px;
+    }
+
     .kontakt01 button {
         margin-left: 25px;
+    }
+
+    .kontaktKnap01 {
+        display: flex;
+        font-size: 15px;
+        background-color: #282454;
+        color: #EDEAF5;
+        border: 1px solid #EDEAF5;
+        border-radius: 8px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .kontaktKnap01:hover {
+        background-color: #2c3f8d;
     }
 
     .kontaktBillede01 {
@@ -285,4 +420,486 @@ body {
         margin-right: auto;
     }
 
+    .checkboxContainer01 {
+        display: flex;
+    }
+
+    .checkTekst01 {
+        font-size: 15px;
+    }
+
+    .checkTekst02 {
+        font-size: 11px;
+        padding-left: 70px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+
+    .checkbox01 {
+        width: 18px;
+    }
+
   }
+
+
+
+
+/* PC versionen af hjemmesiden */
+@media only screen and (min-width: 601px) {
+    /* Headeren */
+    .item01 {
+        display: flex;
+        align-items: baseline;
+        margin-left: 135px;
+        margin-right: 135px;
+        margin-top: 0px;
+    }
+    
+    .item01 h1 {
+        font-size: 25px;
+    }
+    
+    .item01 h4 {
+        margin-left: auto;
+        font-weight: lighter;
+    }
+    
+    
+
+    /* Overskrift & undertitler */  
+    .item02 {
+        margin-left: 135px;
+        margin-top: 100px;
+        font-size: 45px;
+    }
+    
+    .item02 h2 {
+        font-weight: lighter;
+    }
+    
+    .item03 {
+        display: flex;
+        margin-left: 480px;
+        margin-top: -100px;
+    }
+    
+    .item03 h3 {
+        padding-left: 80px;
+        font-weight: lighter;
+        font-size: 16px;
+    }
+    
+    
+
+    /* Linje opdeler*/
+    #opdeler01 {
+        display: none;
+    }
+    
+    
+
+    /* CSS for download knappen */
+    .downloadKnap01 {
+        display: flex;
+        
+        margin-bottom: 40px;
+        font-size: 15px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .downloadKnap01:hover {
+        background-color: #ebebeb;
+    }
+    
+    .appContainer01 {
+        display: flex;
+        align-items: baseline;
+        margin-top: 200px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+
+
+    /* App på undersiden */
+
+    /* 1 app */    
+    .appBillede01 {
+        display: flex;
+        width: 500px;
+       margin-right: 50px;
+    }
+    
+    .appTitle01 {
+        font-size: 35px;
+    }
+    
+    .appText01 {
+        font-size: 20px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .appKnap01 {
+        color: black;
+        
+    }
+    
+    .appKnap01:hover {
+        color: #2c3f8d;
+    }
+    
+    
+
+    /* 2 app */
+    .appBillede02 {
+        display: flex;
+        width: 500px;
+    }
+    
+    .appTitle02 {
+        font-size: 35px;
+    }
+    
+    .appText02 {
+        font-size: 20px; 
+        margin-bottom: 40px;   
+    }
+    
+
+    
+    /* 3 app */
+    .appBillede03 {
+        display: flex;
+        width: 500px;
+    }
+    
+    .appTitle03 {
+        font-size: 35px;
+    }
+    
+    .appText03 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* footer title */
+    .footerTitle01 {
+        font-weight: lighter;
+        font-size: 30px;
+    }
+
+
+
+    /* footer */
+    footer {
+        background-color: #ebebeb;
+        margin-top: 100px;
+    }
+
+    .footerContainer01 {
+        display: flex;
+        margin-left: 500px;
+    }
+
+    .footerContainer02 {
+        margin-left: 500px;
+        padding-top: 400px;
+    }
+
+    .footerContainer03 {
+        margin-top: 400px;
+        margin-left: -450px;
+    }
+
+    .footerContainer04 {
+        margin-top: 400px;
+        margin-left: 30px;
+    }
+
+    .footerContainer05 {
+        margin-top: 410px;
+        margin-left: 200px;   
+    }
+    .footerContainer06 {
+        margin-left: 150px;
+    }
+
+    .footerContainer07 {
+        margin-top: 425px;
+        margin-left: 350px;
+    }
+
+    footer h2 {
+        padding-top: 100px;
+        margin-left: 25px;
+        margin-bottom: -10px;
+    }
+
+    .footerTekst01 {
+        margin-left: 25px;
+        margin-bottom: -10px;
+        font-weight: bold;
+    }
+
+    .footerTekst02 {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+
+    footer h5 {
+        margin-left: 180px;
+        margin-top: -200px;
+        margin-bottom: 0px;
+        padding-bottom: 100px;
+        font-size: 100px;
+    }
+
+
+
+    /* Indhold for frokost siden PC */
+
+    /* Over & under title på Frokost siden */
+    .item04 {
+        display: flex;
+        align-items: baseline;
+        margin-left: 135px;
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .tilbageKnap01 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .item04 p {
+        margin-left: 10px;
+    }
+
+    .item05 {
+        margin-left: 450px;
+        margin-top: -265px;
+    }
+
+    .item05 h6 {
+        font-size: 75px;
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* Indhold inde på frokost app siden */
+    .indholdBillede01 {
+        display: flex;
+        width: 800px;
+        margin-left: 900px;
+        margin-top: 100px;
+    }
+
+    .karusselBillede01 {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 500px;
+        width: 600px;
+    }
+
+    .indholdText01 {
+        margin-top: -800px;
+        margin-right: 1050px;
+        margin-left: 135px;
+        font-size: 20px;
+    }
+
+    .indholdText02 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 500px;
+        margin-right: 500px;
+        font-size: 20px;
+    }
+
+    .downloadKnap02 {
+        display: flex;
+        margin-left: 500px;
+        margin-bottom: 100px;
+        font-size: 15px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .downloadKnap02:hover {
+        background-color: #ebebeb;
+    }
+
+
+    
+    /* Kontaktformularen */
+    .kontakt01 {
+        background-color: #282454;
+        padding-bottom: 80px;
+        color: #EDEAF5;
+        padding-top: 80px;
+        margin-bottom: -100px;
+    }
+
+    .formularContainer01 {
+        margin-left: 1200px;
+        margin-top: -500PX;
+    }
+
+    .kontakt01 p {
+        margin-left: 25px;
+    }
+
+    .fornavn01 {
+        font-size: 15px;
+    }
+
+    .efternavn01 {
+        font-size: 15px;
+    }
+
+    .email01 {
+        font-size: 15px;
+    }
+
+    .jobtitle01 {
+        font-size: 15px;
+    }
+
+    .virksomhed01 {
+        font-size: 15px;
+    }
+
+    .kontaktText01 {
+        font-size: 15px;
+        padding-left: 115px;
+    }
+
+    .kontaktText02 {
+        font-size: 60px;
+        padding-left: 115px;
+        padding-right: 135px;
+    }
+
+    .kontakt01 input {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .fornavn02 {
+        width: 450px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .efternavn02 {
+        width: 450px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .email02 {
+        width: 450px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .jobtitle02 {
+        width: 450px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .virksomhed02 {
+        width: 450px;
+        background-color: #282454;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #EDEAF5;
+        color: #EDEAF5;
+    }
+
+    .kontaktBesked01 {
+        margin-left: 25px;
+        width: 450px;
+        height: 200px;
+        padding: 10px 10px;
+        background-color: #282454;
+        color: #EDEAF5;
+        box-sizing: border-box;
+        border: 1px solid #EDEAF5;
+        border-radius: 8px;
+    }
+
+    .kontakt01 button {
+        margin-left: 25px;
+    }
+
+    .kontaktKnap01 {
+        display: flex;
+        margin-top: 50px;
+        font-size: 15px;
+        background-color: #282454;
+        color: #EDEAF5;
+        border: 1px solid #EDEAF5;
+        border-radius: 8px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .kontaktKnap01:hover {
+        background-color: #2c3f8d;
+    }
+
+    .kontaktBillede01 {
+        display: flex;
+        width: 1000px;
+        margin-left: 140px;
+    }
+
+    .checkboxContainer01 {
+        display: flex;
+    }
+
+    .checkTekst01 {
+        font-size: 15px;
+    }
+
+    .checkTekst02 {
+        font-size: 11px;
+        padding-left: 70px;
+        padding-right: 350px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+
+    .checkbox01 {
+        width: 18px;
+    }    
+    }
