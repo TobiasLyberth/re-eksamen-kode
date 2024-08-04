@@ -57,6 +57,15 @@ body {
         font-weight: lighter;
         font-size: 15px;
     }
+
+    .undertitleText01 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .undertitleText01:hover {
+        text-decoration: underline;
+    }
     
 
 
@@ -132,6 +141,15 @@ body {
         margin-top: 40px;
         margin-bottom: 30px;
         font-size: 35px;
+    }
+
+    .appLink01 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .appLink01:hover {
+        text-decoration: underline;
     }
 
     .appText01 {
@@ -274,6 +292,40 @@ body {
         width: 250px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .tilbage, .fremad {
+        position: absolute;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -150px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .tilbage 
+    { left: 20px; }
+    .fremad
+    { right: 20px; }
+
+    .tilbage:hover, .fremad:hover {
+        font-size: 30px;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin-top: 40px;
+        background-color: #EBEBEB;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #222222;
     }
 
     .indholdText01 {
@@ -489,7 +541,15 @@ body {
         font-size: 16px;
     }
     
-    
+    .undertitleText01 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .undertitleText01:hover {
+        text-decoration: underline;
+    }
+
 
     /* Linje opdeler*/
     #opdeler01 {
@@ -536,6 +596,15 @@ body {
     
     .appTitle01 {
         font-size: 35px;
+    }
+
+    .appLink01 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .appLink01:hover {
+        text-decoration: underline;
     }
     
     .appText01 {
@@ -711,6 +780,42 @@ body {
         margin-right: auto;
         margin-top: 500px;
         width: 600px;
+    }
+
+    .tilbage, .fremad {
+        position: absolute;
+        cursor: pointer;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: -300px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .tilbage 
+    { left: 20px; }
+    .fremad
+    { right: 20px; }
+
+    .tilbage:hover, .fremad:hover {
+        font-size: 30px;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin-top: 40px;
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: #EBEBEB;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #222222;
     }
 
     .indholdText01 {

@@ -8,6 +8,10 @@
     <!--link til css-->
     <link rel="stylesheet" href="style.css">
 
+    <!--Link til JavaScript-->
+    <script src="javascript/karrusel.js" defer></script>
+    <script src="javascript/download.js" defer></script>
+
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,7 +77,35 @@
             <hr id="opdeler01">
 
         </p>
-        <img class="karusselBillede01" src="billeder/frokost03.jpg" alt="Karussel billede 1">
+        <div class="slideshowContainer01">
+            
+            <div class="karrusel01">
+                <img class="karusselBillede01" src="billeder/frokost03.jpg" alt="Madlavning">
+            </div>
+
+            <div class="karrusel01">
+                <img class="karusselBillede01" src="billeder/frokost01.jpg" alt="Frokost pause">
+            </div>
+
+            <div class="karrusel01">
+                <img class="karusselBillede01" src="billeder/frokost04.jpg" alt="Te">
+            </div>
+
+            <div class="karrusel01">
+                <img class="karusselBillede01" src="billeder/Frokost app01.png" alt="Appens forside">
+            </div>
+
+            <a class="tilbage" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="fremad" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
         <p class="indholdText02">
             Frokost er opbygget af flere funktioner. Koordinering mellem arbejdsplads og madsted, koordinering mellem arbejdsgiver og medarbejder, indsamling til fælles madbudget og ugentlig planlægning af madordning.
             <br>
